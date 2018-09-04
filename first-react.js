@@ -1,5 +1,5 @@
-import react from 'react';
-import reactdom from 'reactdom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 class ShoppingList extends React.Component {
   render() {
@@ -15,3 +15,7 @@ class ShoppingList extends React.Component {
     );
   }
 }
+
+const ai1 = <p>Do me a favour</p>
+
+ReactDOM.render(ai1, document.getElementById('firstPlace'));
